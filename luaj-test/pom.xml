@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.luaj</groupId>
 		<artifactId>luaj-parent</artifactId>
-		<version>3.0-SNAPSHOT</version>
+		<version>3.0.0.maydayfork</version>
 	</parent>
 
 	<artifactId>luaj-test</artifactId>
@@ -35,6 +35,7 @@
 			<artifactId>junit-jupiter</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- J2ME Emulators for testing -->
 		<dependency>
 			<groupId>org.microemu</groupId>
 			<artifactId>microemulator</artifactId>
